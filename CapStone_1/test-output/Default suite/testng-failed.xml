@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.BagistoStepByStepTest">
+        <methods>
+          <include name="enterAddressFirstName"/>
+          <include name="enterLastName"/>
+          <include name="clickViewAllNotifications"/>
+          <include name="openAdminPanel"/>
+          <include name="selectGender"/>
+          <include name="searchCustomer"/>
+          <include name="enterAddressLastName"/>
+          <include name="openCalendar"/>
+          <include name="enterCustomerEmail"/>
+          <include name="clickSignIn"/>
+          <include name="selectCountry"/>
+          <include name="clickDeleteIcon"/>
+          <include name="tearDown"/>
+          <include name="enableDarkMode"/>
+          <include name="waitForDeleteIcon"/>
+          <include name="selectToday"/>
+          <include name="clickSaveCustomerBtn"/>
+          <include name="selectState"/>
+          <include name="clickAddAddressBtn"/>
+          <include name="clickCreateCustomerBtn"/>
+          <include name="waitForSearchResults"/>
+          <include name="enterAddressEmail"/>
+          <include name="captureResult"/>
+          <include name="enterPassword"/>
+          <include name="setUp"/>
+          <include name="enterPhone"/>
+          <include name="clickSaveAddressBtn"/>
+          <include name="enterPostCode"/>
+          <include name="clickCustomersSubMenu"/>
+          <include name="enterStreetAddress"/>
+          <include name="clickFirstSearchResult"/>
+          <include name="enterEmail"/>
+          <include name="flushReport"/>
+          <include name="clickCustomersDiv"/>
+          <include name="setUpReport"/>
+          <include name="clickAddress"/>
+          <include name="enterFirstName"/>
+          <include name="clickAgreeBtn"/>
+          <include name="waitForAgreeBtn"/>
+          <include name="enterCity"/>
+          <include name="clickNewCustomerLogin"/>
+          <include name="goToCustomersMenu"/>
+          <include name="startTest"/>
+          <include name="openNotifications"/>
+        </methods>
+      </class> <!-- test.BagistoStepByStepTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

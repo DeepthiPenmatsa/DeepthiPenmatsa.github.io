@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\deept\eclipse-workspace\CapStone_1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 1 failed,  36 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterEmail">enterEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickAddAddressBtn">clickAddAddressBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickAddress">clickAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickAgreeBtn">clickAgreeBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickCreateCustomerBtn">clickCreateCustomerBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickCustomersDiv">clickCustomersDiv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickCustomersSubMenu">clickCustomersSubMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickDeleteIcon">clickDeleteIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickFirstSearchResult">clickFirstSearchResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickNewCustomerLogin">clickNewCustomerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickSaveAddressBtn">clickSaveAddressBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickSaveCustomerBtn">clickSaveCustomerBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickSignIn">clickSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="clickViewAllNotifications">clickViewAllNotifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enableDarkMode">enableDarkMode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterAddressEmail">enterAddressEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterAddressFirstName">enterAddressFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterAddressLastName">enterAddressLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterCity">enterCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterCustomerEmail">enterCustomerEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterFirstName">enterFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterLastName">enterLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterPassword">enterPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterPhone">enterPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterPostCode">enterPostCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="enterStreetAddress">enterStreetAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="goToCustomersMenu">goToCustomersMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="openCalendar">openCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="openNotifications">openNotifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="searchCustomer">searchCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="selectCountry">selectCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="selectGender">selectGender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="selectState">selectState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="selectToday">selectToday</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="waitForAgreeBtn">waitForAgreeBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="waitForDeleteIcon">waitForDeleteIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="waitForSearchResults">waitForSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BagistoStepByStepTest" class="method navigator-link" hash-for-method="openAdminPanel">openAdminPanel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.BagistoStepByStepTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail">
+                  </a> <!-- enterEmail -->
+                  <span class="method-name">enterEmail</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fbaa5bd13ff4cb450c028f4fc3ea9ec, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\deept\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65241/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fbaa5bd13ff4cb450c028f4fc3ea9ec
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4465)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
+	at java.base/java.lang.String.valueOf(String.java:4465)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
+	at pages.LoginPage.enterEmail(LoginPage.java:32)
+	at test.BagistoStepByStepTest.enterEmail(BagistoStepByStepTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.BagistoStepByStepTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddAddressBtn">
+                  </a> <!-- clickAddAddressBtn -->
+                  <span class="method-name">clickAddAddressBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickAddAddressBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickAddress() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddress">
+                  </a> <!-- clickAddress -->
+                  <span class="method-name">clickAddress</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickAddress() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickNewCustomerLogin() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAgreeBtn">
+                  </a> <!-- clickAgreeBtn -->
+                  <span class="method-name">clickAgreeBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickAgreeBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.waitForAgreeBtn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCreateCustomerBtn">
+                  </a> <!-- clickCreateCustomerBtn -->
+                  <span class="method-name">clickCreateCustomerBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickCreateCustomerBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickCustomersSubMenu() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCustomersDiv">
+                  </a> <!-- clickCustomersDiv -->
+                  <span class="method-name">clickCustomersDiv</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickCustomersDiv() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.searchCustomer() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCustomersSubMenu">
+                  </a> <!-- clickCustomersSubMenu -->
+                  <span class="method-name">clickCustomersSubMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickCustomersSubMenu() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.goToCustomersMenu() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickDeleteIcon">
+                  </a> <!-- clickDeleteIcon -->
+                  <span class="method-name">clickDeleteIcon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickDeleteIcon() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.waitForDeleteIcon() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickFirstSearchResult">
+                  </a> <!-- clickFirstSearchResult -->
+                  <span class="method-name">clickFirstSearchResult</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickFirstSearchResult() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.waitForSearchResults() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickNewCustomerLogin">
+                  </a> <!-- clickNewCustomerLogin -->
+                  <span class="method-name">clickNewCustomerLogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickNewCustomerLogin() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickSaveCustomerBtn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSaveAddressBtn">
+                  </a> <!-- clickSaveAddressBtn -->
+                  <span class="method-name">clickSaveAddressBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickSaveAddressBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterPhone() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSaveCustomerBtn">
+                  </a> <!-- clickSaveCustomerBtn -->
+                  <span class="method-name">clickSaveCustomerBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickSaveCustomerBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.selectGender() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignIn">
+                  </a> <!-- clickSignIn -->
+                  <span class="method-name">clickSignIn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickSignIn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterPassword() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickViewAllNotifications">
+                  </a> <!-- clickViewAllNotifications -->
+                  <span class="method-name">clickViewAllNotifications</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.clickViewAllNotifications() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.openNotifications() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enableDarkMode">
+                  </a> <!-- enableDarkMode -->
+                  <span class="method-name">enableDarkMode</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enableDarkMode() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickSignIn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddressEmail">
+                  </a> <!-- enterAddressEmail -->
+                  <span class="method-name">enterAddressEmail</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterAddressEmail() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterAddressLastName() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddressFirstName">
+                  </a> <!-- enterAddressFirstName -->
+                  <span class="method-name">enterAddressFirstName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterAddressFirstName() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickAddAddressBtn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddressLastName">
+                  </a> <!-- enterAddressLastName -->
+                  <span class="method-name">enterAddressLastName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterAddressLastName() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterAddressFirstName() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCity">
+                  </a> <!-- enterCity -->
+                  <span class="method-name">enterCity</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterCity() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.selectState() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCustomerEmail">
+                  </a> <!-- enterCustomerEmail -->
+                  <span class="method-name">enterCustomerEmail</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterCustomerEmail() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterLastName() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFirstName">
+                  </a> <!-- enterFirstName -->
+                  <span class="method-name">enterFirstName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterFirstName() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickCreateCustomerBtn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterLastName">
+                  </a> <!-- enterLastName -->
+                  <span class="method-name">enterLastName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterLastName() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterFirstName() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword">
+                  </a> <!-- enterPassword -->
+                  <span class="method-name">enterPassword</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterPassword() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterEmail() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPhone">
+                  </a> <!-- enterPhone -->
+                  <span class="method-name">enterPhone</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterPhone() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterPostCode() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPostCode">
+                  </a> <!-- enterPostCode -->
+                  <span class="method-name">enterPostCode</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterPostCode() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterCity() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterStreetAddress">
+                  </a> <!-- enterStreetAddress -->
+                  <span class="method-name">enterStreetAddress</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.enterStreetAddress() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterAddressEmail() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToCustomersMenu">
+                  </a> <!-- goToCustomersMenu -->
+                  <span class="method-name">goToCustomersMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.goToCustomersMenu() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickAgreeBtn() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openCalendar">
+                  </a> <!-- openCalendar -->
+                  <span class="method-name">openCalendar</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.openCalendar() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enableDarkMode() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openNotifications">
+                  </a> <!-- openNotifications -->
+                  <span class="method-name">openNotifications</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.openNotifications() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.selectToday() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomer">
+                  </a> <!-- searchCustomer -->
+                  <span class="method-name">searchCustomer</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.searchCustomer() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickViewAllNotifications() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCountry">
+                  </a> <!-- selectCountry -->
+                  <span class="method-name">selectCountry</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.selectCountry() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterStreetAddress() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectGender">
+                  </a> <!-- selectGender -->
+                  <span class="method-name">selectGender</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.selectGender() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.enterCustomerEmail() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectState">
+                  </a> <!-- selectState -->
+                  <span class="method-name">selectState</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.selectState() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.selectCountry() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectToday">
+                  </a> <!-- selectToday -->
+                  <span class="method-name">selectToday</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.selectToday() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.openCalendar() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waitForAgreeBtn">
+                  </a> <!-- waitForAgreeBtn -->
+                  <span class="method-name">waitForAgreeBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.waitForAgreeBtn() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickDeleteIcon() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waitForDeleteIcon">
+                  </a> <!-- waitForDeleteIcon -->
+                  <span class="method-name">waitForDeleteIcon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.waitForDeleteIcon() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickFirstSearchResult() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waitForSearchResults">
+                  </a> <!-- waitForSearchResults -->
+                  <span class="method-name">waitForSearchResults</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test.BagistoStepByStepTest.waitForSearchResults() on instance test.BagistoStepByStepTest@587e5365 depends on not successfully finished methods 
+[test.BagistoStepByStepTest.clickCustomersDiv() on instance test.BagistoStepByStepTest@587e5365]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.BagistoStepByStepTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAdminPanel">
+                  </a> <!-- openAdminPanel -->
+                  <span class="method-name">openAdminPanel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\deept\eclipse-workspace\CapStone_1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.BaseTest&quot;/&gt;
+      &lt;class name=&quot;test.BagistoStepByStepTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterEmail')
+data.setCell(0, 2, 'test.BagistoStepByStepTest')
+data.setCell(0, 3, 15433);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openAdminPanel')
+data.setCell(1, 2, 'test.BagistoStepByStepTest')
+data.setCell(1, 3, 798);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickFirstSearchResult')
+data.setCell(2, 2, 'test.BagistoStepByStepTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'waitForDeleteIcon')
+data.setCell(3, 2, 'test.BagistoStepByStepTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickDeleteIcon')
+data.setCell(4, 2, 'test.BagistoStepByStepTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickCustomersSubMenu')
+data.setCell(5, 2, 'test.BagistoStepByStepTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enterLastName')
+data.setCell(6, 2, 'test.BagistoStepByStepTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectToday')
+data.setCell(7, 2, 'test.BagistoStepByStepTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickSignIn')
+data.setCell(8, 2, 'test.BagistoStepByStepTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterPassword')
+data.setCell(9, 2, 'test.BagistoStepByStepTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'waitForAgreeBtn')
+data.setCell(10, 2, 'test.BagistoStepByStepTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'enterAddressLastName')
+data.setCell(11, 2, 'test.BagistoStepByStepTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'enterPostCode')
+data.setCell(12, 2, 'test.BagistoStepByStepTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickCustomersDiv')
+data.setCell(13, 2, 'test.BagistoStepByStepTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'waitForSearchResults')
+data.setCell(14, 2, 'test.BagistoStepByStepTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'selectCountry')
+data.setCell(15, 2, 'test.BagistoStepByStepTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickNewCustomerLogin')
+data.setCell(16, 2, 'test.BagistoStepByStepTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'enableDarkMode')
+data.setCell(17, 2, 'test.BagistoStepByStepTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'enterAddressFirstName')
+data.setCell(18, 2, 'test.BagistoStepByStepTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchCustomer')
+data.setCell(19, 2, 'test.BagistoStepByStepTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'openNotifications')
+data.setCell(20, 2, 'test.BagistoStepByStepTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'enterCity')
+data.setCell(21, 2, 'test.BagistoStepByStepTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'goToCustomersMenu')
+data.setCell(22, 2, 'test.BagistoStepByStepTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickCreateCustomerBtn')
+data.setCell(23, 2, 'test.BagistoStepByStepTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickAddAddressBtn')
+data.setCell(24, 2, 'test.BagistoStepByStepTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'enterAddressEmail')
+data.setCell(25, 2, 'test.BagistoStepByStepTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'enterPhone')
+data.setCell(26, 2, 'test.BagistoStepByStepTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'clickAddress')
+data.setCell(27, 2, 'test.BagistoStepByStepTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'selectState')
+data.setCell(28, 2, 'test.BagistoStepByStepTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'openCalendar')
+data.setCell(29, 2, 'test.BagistoStepByStepTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'selectGender')
+data.setCell(30, 2, 'test.BagistoStepByStepTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'enterFirstName')
+data.setCell(31, 2, 'test.BagistoStepByStepTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'clickSaveCustomerBtn')
+data.setCell(32, 2, 'test.BagistoStepByStepTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'clickAgreeBtn')
+data.setCell(33, 2, 'test.BagistoStepByStepTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'clickViewAllNotifications')
+data.setCell(34, 2, 'test.BagistoStepByStepTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'enterCustomerEmail')
+data.setCell(35, 2, 'test.BagistoStepByStepTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'clickSaveAddressBtn')
+data.setCell(36, 2, 'test.BagistoStepByStepTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'enterStreetAddress')
+data.setCell(37, 2, 'test.BagistoStepByStepTest')
+data.setCell(37, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.BagistoStepByStepTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpReport</span>
+                <br/>
+                <span class="ignored-method-name">flushReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">base.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BagistoStepByStepTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">223 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void test.BagistoStepByStepTest.openAdminPanel())</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAdminPanel</span>
+                <span class="method-start">1495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureResult([TestResult name=openAdminPanel status=SUCCESS method=BagistoStepByStepTest.openAdminPanel()[pri:1, ...)</span>
+                <span class="method-start">2294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void test.BagistoStepByStepTest.enterEmail())</span>
+                <span class="method-start">2298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterEmail</span>
+                <span class="method-start">2299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">captureResult([TestResult name=enterEmail status=FAILURE method=BagistoStepByStepTest.enterEmail()[pri:2, instance...)</span>
+                <span class="method-start">17735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17782 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
